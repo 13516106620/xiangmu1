@@ -1,0 +1,96 @@
+
+main{
+    width: 1008px;
+    margin: 0 auto;
+}
+header{
+    border-bottom:#a6a498 5px solid ; 
+}
+header main{
+    display: flex;
+    justify-content: space-between;
+}
+#head1{
+    background: url(../img/log.png) no-repeat;
+    background-position: 8px -58px;
+    width: 268px;
+    height: 64px;
+    display: block;
+    margin-top: 30px;
+    margin-left: 20px;    
+}
+header main div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    margin-top: 46px;
+    margin-left: 100px;
+    font-size: 12px;
+}
+header main  img{
+    height: 30px;
+    margin-top: -5px;
+}
+
+.dl main{
+    color: #dd000f;
+    margin-top: 34px;
+}
+
+.foot main{
+    display: flex;
+    justify-content: space-between;
+}
+.foot main .foot-left{
+    margin-left: 150px;
+    margin-top: 120px;
+}
+.foot main .foot-left form .zhong{
+    width: 134px;
+    height: 44px;
+    background-color: #dd000f;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+.foot main .foot-right{
+    font-size: 12px;
+    border-left: #a6a498 dashed 2px;
+    height: 400px;
+}
+.foot main .foot-right p{
+    margin-left: 15px;
+}
+.foot main .foot-right  .zc{
+    background-color: #53aceb;
+    margin-top: 10px;
+    width: 134px;
+    height: 44px;
+    margin-left: 20px;
+}
+.foot main  .foot-right a{
+    background-color: #53aceb;
+    display: block;
+    width: 118px;
+    height: 42px;
+    line-height: 46px;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 8px;
+    text-decoration: none;
+    
+}
+.foot main .foot-right .jun{
+    margin-top: 100px;
+    margin-left: 15px;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+    border-top:#a6a498 2px solid ;
+    margin-top: 10px;
+}
+footer .di{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}

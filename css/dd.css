@@ -1,0 +1,226 @@
+main{
+    width: 1410px;
+    margin: 0 auto;
+}
+header{
+    background-color: #ebeae5;
+    
+}
+header main{
+    display:flex;
+    justify-content: space-between;
+}
+header div:nth-child(1),header div:nth-child(2),header div:nth-child(3){
+    display: flex; 
+    margin-top: 10px;
+}
+header div:nth-child(1) p,header div:nth-child(2) p,header div:nth-child(3) p{
+    margin-left: 22px;
+    font-size: 12px;
+}
+header div:nth-child(1) p a,header div:nth-child(2) p a,header div:nth-child(3) p a{
+    color: #000;
+    font-size: 12px;
+}
+header div:nth-child(1) p:nth-child(5){
+    color: #d2000f;
+}
+header div:nth-child(3) #c{
+    background: url(../img/log.png) no-repeat;
+    background-position: -19px 1px;
+    width: 33px;
+    height: 22px;
+    display: block;
+}
+
+
+
+
+.head main{
+display: flex;
+}
+#head1{
+    background: url(../img/log.png) no-repeat;
+    background-position: 8px -58px;
+    width: 268px;
+    height: 64px;
+    display: block;
+    margin-top: 30px;
+    margin-left: 20px;
+
+    
+}
+.head main div:nth-child(2){
+    margin-top: 28px;
+    margin-left: 40px;
+}
+.head main div:nth-child(2) h2{
+    color: #d2000f;
+}
+.head main div:nth-child(2) p{
+    color: #bcbcbb;
+    font-size: 16px;
+}
+.head main div:nth-child(3) input{
+    border: 3px solid #000000;
+}
+.col-lg-3{
+    width: 500px;
+    margin-top:28px;
+    margin-left: 60px;
+}
+.btn{
+    background-color: #000;
+    color: #fff;
+} 
+.col-lg-3 div:nth-child(2) a{
+    margin-left: 8px;
+}
+.head main div:nth-child(3) div:nth-child(2){
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 12px;
+}
+
+.max main{
+    display: flex;
+}
+.max main div:nth-child(1){
+    margin-top: 34px;
+    margin-left: 40px;
+    width: 238px;
+    text-align: center;
+    
+    
+}
+.max main div:nth-child(1) p{
+    background-color: #d2000f; 
+    font-size: 18px;
+    width: 238px;
+    cursor: pointer;
+}
+.max main div:nth-child(2){
+    margin-top: 36px;
+    margin-left: 40px;
+}
+.max main div:nth-child(2) a{
+    margin-left: 10px;
+}
+.max main div:nth-child(1) ul{
+    display: none;
+    float: left;
+    background-color: #fff;
+    width: 238px;
+    position: absolute;
+    z-index: 99;
+   
+}
+.max main div:nth-child(1) ul a{
+    float: left;
+}
+.max main div:nth-child(1) ul li{
+    line-height: 30px;
+    margin-left: 5px;
+    float: left;
+   
+}
+.max main div:nth-child(1) li:hover{
+    background-color: #d2000f;
+}
+
+.details .tab  .tab_list  li {
+    list-style-type: none;
+}
+
+.tab{
+    width: 254px;
+    margin-top: -22px;
+}
+.tab_list {
+    height: 39px;
+    margin-left: 40px;
+    /* border: 1px solid #ccc; */
+    /* background-color: #f1f1f1; */
+}
+
+.tab_list li {
+   
+    height: 39px;
+    line-height: 39px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.tab_list .current {
+    background-color: #c81623;
+    color: #fff;
+}
+
+.item_info {
+    padding: 20px 0 0 20px;
+}
+
+.item {
+   margin-left: 254px;
+   width: 200px;
+}
+.item img{
+    width: 853px;
+    margin-left: 400px;
+    margin-top: 0px;
+} 
+.tab_con{
+    margin-left: 20px;
+    width: 800px;
+    margin-top: -120px;
+}
+
+.min main{
+    margin-top: 20px;
+    
+}
+.min main .min-left{
+    width: 214px;
+    margin-left: 40px;
+    background-color: aqua;
+
+}
+.min main .min-left p{
+    line-height: 40px;
+    
+    text-align: center;
+    background-color: #F36705;
+}
+.min main .min-left p a{
+    color: azure;
+    font-size: 20px;
+}
+.min main .min-left p:nth-child(2){
+    background-color: #F3F3F3; 
+}
+.min main .min-left p:nth-child(2) a{
+    color: #F36705;
+    font-size: 16px;
+}
+/*
+.min main .min-right{
+    width: 1096px;
+    background-color: aquamarine;
+    margin-left: 20px;
+}
+.min main .min-left p{
+    line-height: 40px;
+    text-align: center;
+    background-color: #F36705;
+}
+.min main .min-left p a{
+    color: azure;
+    font-size: 20px;
+}
+.min main .min-left p:nth-child(2){
+    background-color: #F3F3F3; 
+}
+.min main .min-left p:nth-child(2) a{
+    color: #F36705;
+    font-size: 16px;
+} */

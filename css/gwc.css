@@ -1,0 +1,106 @@
+main{
+    width: 1328px;
+    margin: 0 auto;
+}
+header{
+    border-bottom:#a6a498 5px solid ; 
+}
+header main{
+    display: flex;
+    justify-content: space-between;
+}
+#head1{
+    background: url(../img/log.png) no-repeat;
+    background-position: 8px -58px;
+    width: 268px;
+    height: 64px;
+    display: block;
+    margin-top: 30px;
+    margin-left: 20px;    
+}
+header main div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    margin-top: 46px;
+    margin-left: 100px;
+    font-size: 12px;
+}
+header main  img{
+    height: 30px;
+    margin-top: -5px;
+}
+
+
+
+/* .shopping main{
+    width:  1328px !important;
+    
+} */
+.shopping .top{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.shopping .bottom{
+    border: 2px solid #a6a498;
+}
+.shopping .bottom ul{
+    display: flex;
+    justify-content: space-between;
+    background-color: #a6a498;
+    height: 30px;
+}
+
+.shopping .bottom ol{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    border: 1px #a6a498 dashed;
+}
+.shopping .bottom ol li{
+    margin-top: 30px;
+    
+}
+
+.shuliang .settlement ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.foot main .bottom{
+    display: flex;
+    justify-content:center ;
+}
+.foot main .bottom ul{
+    margin-left: 50px;
+    text-align: center;
+}
+.foot main .bottom ul li{
+    margin-top: 10px;
+}
+
+.foot main .bottom ul li a{
+    font-size: 16px;
+    color: #000;
+    
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+    border-top:#a6a498 2px solid ;
+    margin-top: 10px;
+    background-color: #42413d;
+}
+footer .di{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+
+
